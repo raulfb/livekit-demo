@@ -42,14 +42,13 @@ Este proyecto es un agente conversacional que utiliza LiveKit y OpenAI para prop
 
 1. **Levantar el servidor LiveKit:**
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 2. **Iniciar el agente en modo desarrollo:**
    ```bash
    python3 simple_agent.py dev
    ```
-fish
 3. **Conectarse a una sala:**
    En otra terminal, puedes usar:
    ```bash
